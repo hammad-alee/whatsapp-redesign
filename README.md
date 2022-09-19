@@ -20,7 +20,3 @@ If you liked the app please give this repo a ⭐️
 
 ## 🐞 Bugs/Requests #
 If you encounter any problems feel free to open an issue. If you feel the library is missing a feature, please raise a ticket on Github and I'll look into it. Pull request are also welcome.# whatsapp-redesign
-# whatsapp-redesign
-# whatsapp-redesign
-# whatsapp-redesign
-# whatsapp-redesign
