@@ -16,7 +16,7 @@ UserListTile(name, image, date, msg) {
         subtitle: Text(
           msg,
           maxLines: 1,
-          style: const TextStyle(overflow: TextOverflow.ellipsis),
+          style: const TextStyle(overflow: TextOverflow.ellipsis, fontSize: 12),
         ),
         trailing: Text(
           date,
