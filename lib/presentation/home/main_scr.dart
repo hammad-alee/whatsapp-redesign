@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:whatsapp_redesign/controller/main_con.dart';
+import 'package:whatsapp_redesign/presentation/group_chat/group_char_scr.dart';
 import 'package:whatsapp_redesign/presentation/home/widget/list_item.dart';
 import 'package:whatsapp_redesign/presentation/global_widget/chat_s.dart';
 import 'package:whatsapp_redesign/presentation/global_widget/left_button.dart';
@@ -17,12 +18,12 @@ class Chats extends StatelessWidget {
           ? FloatingActionButton(
               onPressed: () {},
               backgroundColor: const Color(0xff25D366),
-              child: Icon(
+              elevation: 10,
+              child: const Icon(
                 Icons.add,
                 size: 30,
                 color: Colors.white,
               ),
-              elevation: 10,
             )
           : null,
       body: Row(
@@ -30,7 +31,7 @@ class Chats extends StatelessWidget {
           Container(
               width: 40,
               height: MediaQuery.of(context).size.height,
-              color: Color(0xff25D366),
+              color: const Color(0xff25D366),
               child: Obx(
                 () => Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -146,7 +147,7 @@ class Chats extends StatelessWidget {
                               radius: 20,
                               backgroundColor: Colors.green,
                               child: ClipRRect(
-                                borderRadius: new BorderRadius.circular(41.0),
+                                borderRadius: BorderRadius.circular(41.0),
                                 child: Image.network(
                                   'https://d2kf8ptlxcina8.cloudfront.net/YH5TFCE1QY-preview.png',
                                   height: 40,
@@ -161,6 +162,9 @@ class Chats extends StatelessWidget {
                     ),
                     if (controller.selectedIndex == 0) ...[
                       ChatsView(context),
+                    ]
+                    else if(controller.selectedIndex == 1)...[
+                      GroupChat(),
                     ]
                   ],
                 )),
