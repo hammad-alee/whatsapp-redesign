@@ -14,18 +14,18 @@ class Chats extends StatelessWidget {
   Widget build(BuildContext context) {
     ChatController controller = Get.put(ChatController());
     return Scaffold(
-      floatingActionButton: controller.selectedIndex == 0
-          ? FloatingActionButton(
+      floatingActionButton:
+           FloatingActionButton(
               onPressed: () {},
               backgroundColor: const Color(0xff25D366),
               elevation: 10,
-              child: const Icon(
+              child:  Icon(
+                controller.selectedIndex.value == 2 ? Icons.add_a_photo :
                 Icons.add,
                 size: 30,
                 color: Colors.white,
               ),
-            )
-          : null,
+            ),
       body: Row(
         children: [
           Container(
@@ -160,10 +160,10 @@ class Chats extends StatelessWidget {
                         ),
                       ],
                     ),
-                    if (controller.selectedIndex == 0) ...[
+                    if (controller.selectedIndex.value == 0) ...[
                       ChatsView(context),
                     ]
-                    else if(controller.selectedIndex == 1)...[
+                    else if(controller.selectedIndex.value == 1)...[
                       GroupChat(),
                     ]
                   ],

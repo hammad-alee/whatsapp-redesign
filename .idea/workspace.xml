@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="293e5679-211e-4489-8acf-595dd23e0a06" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/lib/presentation/home/widget/list_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/home/widget/list_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/abc.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/abc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/def.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/def.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/home/main_scr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/home/main_scr.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,11 +52,12 @@
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/binding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/lib/binding" />
       <recent name="$PROJECT_DIR$/lib/controller" />
     </key>
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670255213555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1670255397247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670255397247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
