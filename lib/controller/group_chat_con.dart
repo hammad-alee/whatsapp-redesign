@@ -17,6 +17,14 @@ class GroupChatController extends GetxController with StateMixin {
     User u1;
     u1 = User(
         id: 1,
+        name: 'Flutter Community',
+        lastMessage: 'Stephine, Hi, new version of plugin available.',
+        image:
+        'https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png',
+        date: 'Now');
+    groupsList.add(u1);
+    u1 = User(
+        id: 1,
         name: 'Weekend',
         lastMessage: 'Sofia: 🤷🏽‍♀️🙅🏽‍♀️',
         image:

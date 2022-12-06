@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 UserListTile(name, image, date, msg) {
@@ -5,8 +6,17 @@ UserListTile(name, image, date, msg) {
     children: [
       ListTile(
         leading: CircleAvatar(
-          maxRadius: 30,
-          backgroundImage: NetworkImage(image),
+          backgroundColor: Colors.white,
+          radius: 22,
+          child: ClipOval(
+            child: SizedBox.fromSize(
+              size: const Size.fromRadius(60), // Image radius
+              child: CachedNetworkImage(
+                imageUrl: image,
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
         ),
         title: Text(
           name,
