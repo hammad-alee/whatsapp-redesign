@@ -15,17 +15,17 @@ class Chats extends StatelessWidget {
     ChatController controller = Get.put(ChatController());
     return Scaffold(
       floatingActionButton:
-           FloatingActionButton(
-              onPressed: () {},
-              backgroundColor: const Color(0xff25D366),
-              elevation: 10,
-              child:  Icon(
-                controller.selectedIndex.value == 2 ? Icons.add_a_photo :
-                Icons.add,
-                size: 30,
-                color: Colors.white,
-              ),
-            ),
+           Obx(() => FloatingActionButton(
+             onPressed: () {},
+             backgroundColor: const Color(0xff25D366),
+             elevation: 10,
+             child:  Icon(
+               controller.selectedIndex.value == 2 ? Icons.add_a_photo :
+               Icons.add,
+               size: 30,
+               color: Colors.white,
+             ),
+           )),
       body: Row(
         children: [
           Container(
