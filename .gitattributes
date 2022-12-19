@@ -8,4 +8,4 @@
 *.c linguist-detectable=false
 *Podfile linguist-detectable=false
 *.html linguist-detectable=false
-*.kt linguist-detectable=false
+*.d linguist-detectable=false
