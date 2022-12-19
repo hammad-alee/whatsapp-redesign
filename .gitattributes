@@ -10,4 +10,3 @@
 *.html linguist-detectable=false
 *.d linguist-detectable=false
 *.xml linguist-detectable=false
-*.dart linguist-detectable=true
