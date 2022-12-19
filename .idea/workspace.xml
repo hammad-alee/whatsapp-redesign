@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293e5679-211e-4489-8acf-595dd23e0a06" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/lib/presentation/home/main_scr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/home/main_scr.dart" afterDir="false" />
-    </list>
+    <list default="true" id="293e5679-211e-4489-8acf-595dd23e0a06" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670316348616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1670316459158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670316459158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
