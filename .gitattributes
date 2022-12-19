@@ -11,3 +11,4 @@
 *.d linguist-detectable=false
 *.xml linguist-detectable=false
 *.assembly linguist-detectable=false
+*.s linguist-detectable=false
